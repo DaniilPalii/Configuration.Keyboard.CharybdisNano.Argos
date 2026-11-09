@@ -1,13 +1,13 @@
 {
     "viaProtocolVersion": 0,
-    "argosProtocolVersion": 6,
+    "argosProtocolVersion": 7,
     "qmkKeycodesVersion": [
         0,
         0,
         8
     ],
     "tapDanceAmount": 50,
-    "comboAmount": 16,
+    "comboAmount": 24,
     "keysPerCombo": 4,
     "themeId": 16,
     "languageId": "us",
@@ -86,7 +86,7 @@
             5,
             8914,
             0,
-            22280,
+            17875,
             209,
             0,
             17683,
@@ -430,7 +430,7 @@
             "customTerm": 0
         },
         {
-            "enabled": false,
+            "enabled": true,
             "output": 43,
             "input": [
                 26,
@@ -545,6 +545,94 @@
             "input": [
                 8461,
                 17971,
+                0,
+                0
+            ],
+            "customTerm": 0
+        },
+        {
+            "enabled": true,
+            "output": 209,
+            "input": [
+                17179,
+                13337,
+                0,
+                0
+            ],
+            "customTerm": 0
+        },
+        {
+            "enabled": true,
+            "output": 210,
+            "input": [
+                10269,
+                17670,
+                0,
+                0
+            ],
+            "customTerm": 0
+        },
+        {
+            "enabled": true,
+            "output": 211,
+            "input": [
+                10269,
+                13337,
+                0,
+                0
+            ],
+            "customTerm": 0
+        },
+        {
+            "enabled": true,
+            "output": 167,
+            "input": [
+                17924,
+                8457,
+                0,
+                0
+            ],
+            "customTerm": 0
+        },
+        {
+            "enabled": true,
+            "output": 0,
+            "input": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "customTerm": 0
+        },
+        {
+            "enabled": true,
+            "output": 0,
+            "input": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "customTerm": 0
+        },
+        {
+            "enabled": true,
+            "output": 0,
+            "input": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "customTerm": 0
+        },
+        {
+            "enabled": true,
+            "output": 0,
+            "input": [
+                0,
+                0,
                 0,
                 0
             ],
@@ -933,11 +1021,15 @@
     "rows": 8,
     "cols": 5,
     "hasDisplayedWelcomeMessage": true,
-    "tappingTerm": 190,
-    "comboTerm": 50,
-    "flowTapTerm": 150,
-    "quickTapTerm": 0,
+    "tappingTerm": "220",
+    "comboTerm": "60",
+    "flowTapTerm": 0,
+    "quickTapTerm": 200,
     "autoMouseTime": 650,
+    "ledMatrixMotionStyle": 0,
+    "ledMatrixOffTimeout": 30,
+    "ledMatrixDimTimeout": 15,
+    "ledMatrixIdleTimeout": 10,
     "isVIAOnly": false,
     "isLeftHanded": false,
     "autoMouseLayerEnabled": false,
@@ -946,7 +1038,7 @@
     "invertYAxisDragscroll": false,
     "pointingModes": {
         "0": {
-            "dpi": 1500,
+            "dpi": 1300,
             "minimumDpi": 100,
             "dpiPerStep": 100,
             "maxDpi": 3100,
